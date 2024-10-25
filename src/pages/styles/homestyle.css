@@ -1,0 +1,131 @@
+.home_flex_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.rectangle{
+    width: 50px;
+    height: 600px;
+    background: #E7F9FD;
+}
+.left{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.right{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.home_card{
+    width: 100%;
+    height: 640px;
+    background-color: aqua;
+    border-radius: 25px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    font-family: "Inter";
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home_card_img{
+    position: relative;
+    height: 100%;
+    left:280px;
+}
+
+.home_content_card{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background: rgba(231, 250, 254, 1);
+    z-index:999;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home_card_title{
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.home_card_group_btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.home_desc_card{
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-top: 20px;
+}
+.home_card_btn_Recipes{
+    background-color: #fff;
+    font-weight: 600;
+    color: #050606;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+.home_footer_card{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_id_card{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.home_card_footer_btn{
+    background-color: #050606;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home_card_btn_div{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    width: 130px;
+    padding: 0px 5px;
+    height: 50px;
+    gap: 10px;
+    justify-content: center;
+}

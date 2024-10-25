@@ -1,0 +1,88 @@
+.list_menu{
+    width: 90%;
+    min-height:300px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list_menu_title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.list_menu_content{
+    text-align: center;
+    width: 700px;
+}
+
+
+.list_menu_item{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    padding: 20px;
+    border-radius: 25px;   
+}
+.list_menu_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.list_menu_img{
+    width: 100%;
+    height: 260px; 
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.list_menu_item_box_icon{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.list_menu_item_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.list_floating_menu_icon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color:#fff;
+    color: #fff;
+    border-radius:50%;
+    padding:12px;
+    cursor: pointer;
+}
+
+.list_items_menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.list_menu_item_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.p{
+    color: rgba(0, 0, 0, 0.6);
+}
